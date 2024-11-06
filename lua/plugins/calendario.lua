@@ -17,6 +17,9 @@ return {
                 end
             end
         end,
+        cmd = {
+            "Calendar",
+        },
         keys = {
             {
                 mode = "n",

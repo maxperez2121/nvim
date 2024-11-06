@@ -46,7 +46,7 @@ return {
         },
     },
     {
-        "vim-closetag",
+        "alvan/vim-closetag",
         ft = {
             "html",
             "xhtml",

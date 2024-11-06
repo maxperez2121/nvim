@@ -4,7 +4,7 @@ return {
         "alanfortlink/blackjack.nvim",
         dependencies = {
             -- DESC: All the lua functions I don't want to write twice.
-            'nvim-lua/plenary.nvim',
+            "nvim-lua/plenary.nvim",
         },
         config = function()
             local scores_path = os.getenv("HOME") .. "/blackjack_scores.json"
@@ -16,15 +16,17 @@ return {
             })
         end,
         cmd = {
-            "BlackJackNewGame"
+            "BlackJackNewGame",
         },
     },
     {
         -- DESC: Sudoku game on Neovim
-        'jim-fx/sudoku.nvim',
+        "jim-fx/sudoku.nvim",
         cmd = "Sudoku",
         config = function()
-            require("sudoku").setup()
+            require("sudoku").setup({
+                ---
+            })
         end,
     },
 }

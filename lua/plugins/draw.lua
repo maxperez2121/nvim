@@ -3,7 +3,7 @@ return {
         -- DESC: Draw ASCII diagrams in Neovim
         "jbyuki/venn.nvim",
         dependencies = {
-            "anuvyklack/hydra.nvim",
+            "nvimtools/hydra.nvim",
         },
         config = function()
             -- NOTE: cant use tabs or Space`s because this show in menu

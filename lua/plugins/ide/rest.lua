@@ -1,7 +1,7 @@
 return {
     {
         "rest-nvim/rest.nvim",
-        enabled = false,
+        enable = false,
         dependencies = { "luarocks.nvim" },
         config = function()
             require("rest-nvim").setup()
@@ -18,9 +18,6 @@ return {
     {
         -- DESC: Una interfaz mínima de cliente HTTP para Neovim. Kulala en swahili significa "descansar" o "relajarse".
         "mistweaverco/kulala.nvim",
-        --dependencies = {
-        --"anuvyklack/hydra.nvim",
-        --},
         ft = {
             "http",
         },
